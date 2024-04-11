@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Reddit Mono;
+    color: rgb(10, 39, 39);
+    margin: 0%;
+    background-color: rgb(216, 101, 231);
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    font-size: medium;
+    height: 35px;
+    width: 63px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    flex-shrink: 1;
+    background-color: rgb(128, 88, 152);
+}
+#template{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(116, 187, 211);
+    border: 7px solid rgb(153, 102, 201);
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#timer{
+    font-size: 30px;
+}
+#buttons{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
